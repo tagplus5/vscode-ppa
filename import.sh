@@ -13,10 +13,10 @@ wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760868
 # code-insiders 
 wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760865
 
-dpkg-scanpackages . /dev/null |gzip > Packages.gz
+dpkg-scanpackages . /dev/null | gzip > Packages.gz
 
-apt-ftparchive packages . > Packages
-bzip2 -kf Packages
+#apt-ftparchive packages . > Packages
+#bzip2 -kf Packages
 
 apt-ftparchive release . > Release
 gpg --clearsign -o InRelease Release
