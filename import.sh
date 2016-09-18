@@ -13,18 +13,13 @@ wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760868
 # code-insiders 
 wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760865
 
-dpkg-scanpackages . /dev/null | gzip > Packages.gz
+dpkg-scanpackages . /dev/null > Packages
 
-#apt-ftparchive packages . > Packages
-#bzip2 -kf Packages
+gzip --keep --force -9 Packages
 
-#apt-ftparchive release . > Release
-#gpg --clearsign -o InRelease Release
-#gpg -abs -o Release.gpg Release
-#gpg --yes -abs -u $KEYNAME -o Release.gpg Release
+apt-ftparchive release . > Release
 
-#dpkg-sig --sign builder *.deb
-#dpkg-sig -k $KEYNAME -s builder *.deb
+gpg --yes --clearsign --digest-algo SHA512 -o InRelease Release
 
 git add *
 git commit -m 'update'
