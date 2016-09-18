@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>vscode-ppa</title>
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-<pre><code>sudo wget -O /etc/apt/sources.list.d/vscode.list https://github.com/tagplus5/vscode-ppa/raw/master/vscode.list
-</code></pre>
-
+<h1>Visual Studio Code PPA</h1>
+<h2>Contains</h2>
+<ul>
+<li>Visual Studio Code</li>
+<li>Visual Studio Code Insiders</li>
+</ul>
+<h2>Installation</h2>
+<pre>
+    <code>sudo wget -O - https://tagplus5.github.io/vscode-ppa/ubuntu/gpg.key | sudo apt-key add -</code>
+</pre>
+<pre>
+    <code>sudo wget -O /etc/apt/sources.list.d/vscode.list https://github.com/tagplus5/vscode-ppa/raw/master/vscode.list</code>
+</pre>
 </body>
 </html>
