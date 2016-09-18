@@ -1,15 +1,11 @@
-# visual studio code ppa
+# Visual Studio Code PPA
 
 ## Contains
 * Visual Studio Code
 * Visual Studio Code Insiders
 
 ## Installation
-add
-```
-deb http://dl.getdropbox.../deb-packages ./
-```
-to **sources.list**
+add **vscode.list** to **/etc/apt/sources.list.d** 
 
 ## Thanks to
 http://askubuntu.com/a/493577/430974

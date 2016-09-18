@@ -2,8 +2,8 @@
 
 BASEDIR=`dirname "$0"` 
 FULLPATH=`cd "$BASEDIR"; pwd`
-
-cd $FULLPATH
+mkdir -p $FULLPATH/ppa
+cd $FULLPATH/ppa
 
 # code
 wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760868
