@@ -11,8 +11,14 @@ wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760868
 # code-insiders 
 wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760865
 
+dpkg-sig --sign builder *.deb
+
 dpkg-scanpackages . /dev/null |gzip > Packages.gz
 
-git add * 
-git commit -m 'update'
-git push origin master
+apt-ftparchive release . > Release
+gpg --clearsign -o InRelease Release
+gpg -abs -o Release.gpg Release
+
+#git add *
+#git commit -m 'update'
+#git push origin master
