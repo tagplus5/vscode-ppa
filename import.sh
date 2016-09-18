@@ -18,13 +18,13 @@ dpkg-scanpackages . /dev/null | gzip > Packages.gz
 #apt-ftparchive packages . > Packages
 #bzip2 -kf Packages
 
-apt-ftparchive release . > Release
-gpg --clearsign -o InRelease Release
+#apt-ftparchive release . > Release
+#gpg --clearsign -o InRelease Release
 #gpg -abs -o Release.gpg Release
-gpg --yes -abs -u $KEYNAME -o Release.gpg Release
+#gpg --yes -abs -u $KEYNAME -o Release.gpg Release
 
 #dpkg-sig --sign builder *.deb
-dpkg-sig -k $KEYNAME -s builder *.deb
+#dpkg-sig -k $KEYNAME -s builder *.deb
 
 git add *
 git commit -m 'update'

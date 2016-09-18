@@ -1,1 +1,3 @@
 deb https://github.com/tagplus5/vscode-ppa/raw/master/ppa ./
+
+deb [trusted=yes] https://github.com/tagplus5/vscode-ppa/raw/master/ppa/ ./
