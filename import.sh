@@ -5,13 +5,15 @@ FULLPATH=`cd "$BASEDIR"; pwd`
 mkdir -p $FULLPATH/ubuntu
 cd $FULLPATH/ubuntu
 
+git pull
+
 COUNT1=`ls -1 | wc -l`
 
 # code
-wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760868
+wget -q --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760868
 
 # code-insiders
-wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760865
+wget -q --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760865
 
 COUNT2=`ls -1 | wc -l`
 
