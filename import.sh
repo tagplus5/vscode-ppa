@@ -5,22 +5,26 @@ FULLPATH=`cd "$BASEDIR"; pwd`
 mkdir -p $FULLPATH/ubuntu
 cd $FULLPATH/ubuntu
 
+COUNT1=`ls -1 | wc -l`
+
 # code
 wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760868
 
-# code-insiders 
+# code-insiders
 wget --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760865
 
-dpkg-scanpackages . /dev/null > Packages
+COUNT2=`ls -1 | wc -l`
 
-gzip --keep --force -9 Packages
-
-apt-ftparchive release . > Release
-
-gpg --yes --clearsign --digest-algo SHA512 -o InRelease Release
-
-gpg --yes -abs --digest-algo SHA512 -o Release.gpg Release
-
-git add *
-git commit -m 'update'
-git push origin master
+if [ "$COUNT1" != "$COUNT2" ]; then
+    
+    dpkg-scanpackages . /dev/null > Packages
+    gzip --keep --force -9 Packages
+    
+    apt-ftparchive release . > Release
+    gpg --yes --clearsign --digest-algo SHA512 -o InRelease Release
+    gpg --yes -abs --digest-algo SHA512 -o Release.gpg Release
+    
+    git add *
+    git commit -m 'update'
+    git push origin master
+fi;
