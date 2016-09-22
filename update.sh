@@ -17,7 +17,7 @@ wget -q --content-disposition -N https://go.microsoft.com/fwlink/?LinkID=760865
 
 COUNT2=`ls -1 | wc -l`
 
-#if [ "$COUNT1" != "$COUNT2" ]; then
+if [ "$COUNT1" != "$COUNT2" ]; then
     
     dpkg-scanpackages -m . /dev/null > Packages
     gzip --keep --force -9 Packages
@@ -30,4 +30,4 @@ COUNT2=`ls -1 | wc -l`
 
     git commit -a -m 'update'
     git push origin $GITBRANCH
-#fi;
+fi;
