@@ -19,7 +19,7 @@ COUNT2=`ls -1 | wc -l`
 
 if [ "$COUNT1" != "$COUNT2" ]; then
     
-    dpkg-scanpackages . /dev/null > Packages
+    dpkg-scanpackages -m . /dev/null > Packages
     gzip --keep --force -9 Packages
     
     apt-ftparchive release . > Release
