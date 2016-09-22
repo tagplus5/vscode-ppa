@@ -1,17 +1,17 @@
 Package: code
-Version: 1.5.2-1473686317
+Version: 1.5.3-1474533365
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 138340
+Installed-Size: 138358
 Depends: libnotify4, libnss3
 Conflicts: visual-studio-code
 Replaces: visual-studio-code
 Provides: visual-studio-code
-Filename: ./code_1.5.2-1473686317_amd64.deb
-Size: 32904454
-MD5sum: b6efeda6634f3fb01e2b1632cd3d3093
-SHA1: dc26c98310a7cdc813ba459bb519355f7f6e3655
-SHA256: dc12d4cd624de3582e8ab2b4224d2357a586012d9774c90d2556caf5f0e42da6
+Filename: ./code_1.5.3-1474533365_amd64.deb
+Size: 32914062
+MD5sum: c14518cf145567f8b43bc8a88a892d91
+SHA1: 4a6c37c51e684c0a883b887b899995521f2c4682
+SHA256: aff1313186674c21f93f174add81e398daea03ea6b3d43b2cd35e64a22d486ba
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
