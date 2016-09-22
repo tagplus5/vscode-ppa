@@ -2,10 +2,12 @@
 
 BASEDIR=`dirname "$0"` 
 FULLPATH=`cd "$BASEDIR"; pwd`
-mkdir -p $FULLPATH/ubuntu
-cd $FULLPATH/ubuntu
+cd $FULLPATH
 
 git pull
+
+mkdir -p $FULLPATH/ubuntu
+cd $FULLPATH/ubuntu
 
 COUNT1=`ls -1 | wc -l`
 
