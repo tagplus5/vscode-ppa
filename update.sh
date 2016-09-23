@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=`dirname "$0"` 
+BASEDIR=`dirname "$0"`
 FULLPATH=`cd "$BASEDIR"; pwd`
 cd $FULLPATH
 
@@ -21,7 +21,7 @@ COUNT2=`ls -1 | wc -l`
 
 if [ "$COUNT1" != "$COUNT2" ]; then
     
-    dpkg-scanpackages -m . /dev/null > Packages
+    dpkg-scanpackages -m . /dev/null 2> /dev/null > Packages
     gzip --keep --force -9 Packages
     
     apt-ftparchive release . > Release
@@ -32,7 +32,7 @@ if [ "$COUNT1" != "$COUNT2" ]; then
     
     GITBRANCH=`git rev-parse --abbrev-ref HEAD`
 
-    git add * 
+    git add *
     git commit -a -m 'update'
     git push origin $GITBRANCH
 fi;
