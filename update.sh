@@ -34,5 +34,5 @@ if [ "$COUNT1" != "$COUNT2" ]; then
 
     git add *
     git commit -a -m 'update'
-    git push origin $GITBRANCH
+    git push -q origin $GITBRANCH
 fi;
