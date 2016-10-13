@@ -58,6 +58,26 @@ Homepage: https://code.visualstudio.com/
 Description: Code editing. Redefined.
  Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
 
+Package: code
+Version: 1.6.1-1476373175
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 146125
+Depends: libnotify4, libnss3
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_1.6.1-1476373175_amd64.deb
+Size: 34369610
+MD5sum: c864bcc9d9bfdd916f4bffa54de5f2c4
+SHA1: de0b3646d416ac25a1acb671da5569c395342500
+SHA256: 239219d2d3b4eac5e6cac06972331648fefde6ce793a6bc2bc8b0dbc133feabb
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
 Package: code-insiders
 Version: 1.6.0-1474012735
 Architecture: amd64
@@ -452,6 +472,26 @@ Size: 34315604
 MD5sum: b10fc62d895fcd90fca0564f654f3124
 SHA1: 57243bf72167d04a2aa4c9568a61bb4cfe136e43
 SHA256: 46e2c7fba325cf3efbd629175c8e4b1d86c84cc05249cbfe219b22f9e8947ba8
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: code-insiders
+Version: 1.7.0-1476345237
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 146102
+Depends: libnotify4, libnss3
+Conflicts: visual-studio-code-insiders
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Filename: ./code-insiders_1.7.0-1476345237_amd64.deb
+Size: 34319422
+MD5sum: 2dc91a826818d39f7a33fbbbec360c0f
+SHA1: df88fb489e1803a927f881153bba27227bc944b1
+SHA256: f1a0626d2dc9688b3cf8383bfd0336f7a1adcc8ba8c492d68c1f5490f0bbfba7
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
