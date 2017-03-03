@@ -25,3 +25,6 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 sudo apt-get update && \
 sudo apt install code code-insiders
 ```
+
+### For now, there are differences in the official MS repository and this repository for code-insiders, see:
+https://github.com/tagplus5/vscode-ppa/issues/5#issuecomment-283690238
