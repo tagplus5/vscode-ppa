@@ -199,6 +199,26 @@ Description: Code editing. Redefined.
  Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
 
 Package: code
+Version: 1.13.1-1497464373
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 223848
+Depends: libnotify4, libnss3, gnupg, apt, libxkbfile1, libgconf-2-4
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_1.13.1-1497464373_amd64.deb
+Size: 43878100
+MD5sum: 49b5d714ca9eda959513eac7a27c4d19
+SHA1: c642e2b0c11dc66f9513fa64df79638b7bd6a859
+SHA256: fd1ee69b12dc3544ed47ba4bda3c5be3b1bc3d3def8d7a8a117dce0e70712ec1
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: code
 Version: 1.5.2-1473686317
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
