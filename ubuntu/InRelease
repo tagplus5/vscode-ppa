@@ -1,31 +1,31 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Fri, 11 Aug 2017 05:56:14 UTC
+Date: Fri, 11 Aug 2017 07:56:19 UTC
 MD5Sum:
- 90b1b0a2eea2ae63ca85d23a2be70e41           161768 Packages
- 5daca4a881bf017091de7ff400edac35            20546 Packages.gz
- e5c44ee332784eca15ac0cfc00a9ab89               36 Release
+ 32ad058b8c10f3f71721f86decaf8aad           162709 Packages
+ 49ddbf076b38e5cc26a8a6d688b4814d            20653 Packages.gz
+ 9d0eb6cd8e750d9ca92b52f58449bb52               36 Release
 SHA1:
- 6b2e7453d150800296fb65e4d466bf3be00be42d           161768 Packages
- 5d9d64646c3950477724e17c5cdf93a070eaddc7            20546 Packages.gz
- 1c54183c7565df7ea701fa578048c3c72a452e56               36 Release
+ 7110d2cca2b742162886e85809c0e4c815e85230           162709 Packages
+ 5309ba7d9a2ece8f0541d77e4286de0667b3df0d            20653 Packages.gz
+ f5fde793937bec4500c4c04aa1239b3f8aab89fc               36 Release
 SHA256:
- f39dbbeae0e36a743e13e85b30ae8ad753e244692cd7e05ec2532a7a24b66d93           161768 Packages
- 4a5d247c02e6a49c2f04758a907b559a33dd482d0da2ff84a6223f4e95ef7ec1            20546 Packages.gz
- 45b9e225ac0c1d5e1d317c04cba7af8719b15924f93d223dd37c616f6935b563               36 Release
+ 4eb3747f35e8ff309b03bf2673d697ca04ec1f1e5db6d9d0b4a60281b1189ec8           162709 Packages
+ 41670c54b648382b86792d8727b78b521bc8955386f1cdeeaecb2c7ef267c334            20653 Packages.gz
+ a91ff3c0ed154f54591a419ad5b8d1d349861bbe54bb3d3be4aa9aae25a0f226               36 Release
 SHA512:
- 40620ccd6b24d2560885bc62388624e1abfb628b11ea399712d35d4ac01f0caa71c0a29c35847835d869ea86d929773d10ec0c7bc7a903cd16cf7e54f2c551bb           161768 Packages
- 7ea6ccfcb2d7aed112df7bcac7661baa2375f4ef748616b5ea2f48747de01c023cf8cf8e0945a755a3fc49ceb6be8670f64df115478b8fbdaeab1b7bf46462c2            20546 Packages.gz
- 906bc21700563a44b29ecbdac456de444f40a45734934b7132d22892b2e42cf92d6db6f2582f91d976b9bd177de369e33071d83a887f51e79b6ad3d09796fc29               36 Release
+ ab82679083a27fe7be482b21df38d1620812961b7db963f6321018157e2147e3fbf5ce16fb22e1afe19959a98a812dfc7a8614b1d7832a335b3be1160e34581a           162709 Packages
+ 2c60ad5eb2b9d57b198a0e2b83a4f308be6c3facee93d55b7a80e9d738e4e577bca29c8c5359097f92f141d7d5a7f536362c8a7b320bc2b0318ecc6256f8724c            20653 Packages.gz
+ 76bbc4c651c238ac07a17b52f5658778fb34f66e186b05264cb408bda5b0a5496cf907c2870c12b66c3944216f1f4b8d91d5ed3e97753fde2462751a81a3d6ba               36 Release
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBCgAGBQJZjUb+AAoJEK0s9dM1DheL3CEIALR9y5y9/yu1mONTZFmhzAWC
-N5QxMsusBar4Bc/CCKvFjbRhnai3m1MAEGG1ndd/UBXkr2XZ99pg0iCOLWYj0i35
-SPesmLNrcojTK8izFf0FILjuyadzmoAaTZZ2atInoa5vDZ+Cc74MsZAcUAYfQUAh
-Z1scp8qruIGTm68Y8ExC3C8UP+hpyRTggcsTXAnuxPdyiyD5IDjQ3RmQl2QSr6q8
-yQllxR1DzfTZ36/md5ZUWehxkTFx7KIdMweL6wM9GD1Y5u/828ylJZX+jxDGtAX/
-axRg6gZQ34LAv1/vuJikLFTpZlzMQXcqCaNJJ5+l6UymMo2b2PhmD5bV6VVitXQ=
-=icbp
+iQEcBAEBCgAGBQJZjWMjAAoJEK0s9dM1DheLUOoH/ijlDv+Yqb1fkCA55L+AiiRW
+7RsyfDVWON7Rl6VW/Vpm89AalQCPExrCLlUbaHYd64ehHtGHPO01XrgcEprpTizt
+bB0jB1nF5fXC4qCfdPz7PB49ZN3twYwn37+ACe0wv4SMygz0VqNT2/nJBSkafzzU
+qbV5ujDBKPkkdIr+3si1u29V1FboKLa6c+MFQ5QLX88PpWhSpmWg+9I9EnJAEeu5
+Mx7hLxqgZbizF4Qn33WuilWYgIqvztN3M5p+xLWfyW+bCk9ZvAm4hBhdICGzSyhV
+5FLRRejJUevmNcmXhXhJruVukjO/lGYhsgyAEmL415HcTEb7wzcXGBrRchtYvQQ=
+=neDC
 -----END PGP SIGNATURE-----
