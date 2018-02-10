@@ -20,8 +20,8 @@ COUNT2=`ls -1 | wc -l`
 ls -F code_*.deb | head -n -5 | xargs rm 2> /dev/null
 ls -F code-insiders_*.deb | head -n -5 | xargs rm 2> /dev/null
 
-#if [ "$COUNT1" != "$COUNT2" ]; then    
+if [ "$COUNT1" != "$COUNT2" ]; then    
   echo 1
-#else
-#  echo 0
-#fi
+else
+  echo 0
+fi
