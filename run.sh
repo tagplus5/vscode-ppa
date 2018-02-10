@@ -26,12 +26,12 @@ function commit() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa bash -c "git add *"
+  tagplus5/ubuntu-ppa git add *
 
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa bash -c "git commit -a -m 'update'"
+  tagplus5/ubuntu-ppa git commit -a -m 'update'
 }
 
 function push() {
@@ -41,7 +41,7 @@ function push() {
   tagplus5/ubuntu-ppa git push origin master
 }
 
-#pull
+pull
 
 checkVersion
 
