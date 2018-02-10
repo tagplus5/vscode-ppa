@@ -49,6 +49,4 @@ if [ $NEWVERSION = 1 ]; then
   updatePPA
   commit
   push
-else
-  echo "no updates";
 fi
