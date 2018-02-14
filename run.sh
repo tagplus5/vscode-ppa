@@ -26,7 +26,7 @@ function commit() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa git add *
+  tagplus5/ubuntu-ppa git add --all
 
   docker run --rm \
   -v $FULLPATH/root:/root \
@@ -38,7 +38,7 @@ function push() {
   docker run --rm \
   -v $FULLPATH/root:/root \
   -v $FULLPATH:/app \
-  tagplus5/ubuntu-ppa git push origin master
+  tagplus5/ubuntu-ppa git push -q origin master
 }
 
 pull
