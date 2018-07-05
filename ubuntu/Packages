@@ -1,24 +1,4 @@
 Package: code
-Version: 1.22.2-1523551015
-Architecture: amd64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 209122
-Depends: libnotify4, libnss3, gnupg, apt, libxkbfile1, libgconf-2-4, libsecret-1-0
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Provides: visual-studio-code
-Filename: ./code_1.22.2-1523551015_amd64.deb
-Size: 45479630
-MD5sum: 830dd78491defad73c9c59c2b515757b
-SHA1: 7edd7532722006c73433aa006ce3d5267282f10f
-SHA256: 421ab814a82ec205ccca1a31150f2f9a437a2311417a2810fb62e599a40c754c
-Section: devel
-Priority: optional
-Homepage: https://code.visualstudio.com/
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
-
-Package: code
 Version: 1.23.0-1525361119
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
@@ -92,6 +72,26 @@ Size: 46709080
 MD5sum: d509d7d8af9c5f82c51bd96f02a37b05
 SHA1: 1bec3282c03ed83af802c2707524b3b29efe3010
 SHA256: 7b72995400c679f58e9a7745b751ce066b4692e80d8fdb4ad97b3e79070799b2
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: code
+Version: 1.25.0-1530796411
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 220535
+Depends: libnotify4, libnss3, gnupg, apt, libxkbfile1, libgconf-2-4, libsecret-1-0
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_1.25.0-1530796411_amd64.deb
+Size: 47284364
+MD5sum: 60bf4900efcd9f49b51d53f5c7f42f8a
+SHA1: 1c9e33db4c926c393fb27237239ef23898948e55
+SHA256: 8c359779a3c4fd4ada75d11abbd61615092d84d4b43425527df69092a0bac7a1
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
