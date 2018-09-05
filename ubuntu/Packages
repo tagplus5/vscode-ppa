@@ -1,24 +1,4 @@
 Package: code
-Version: 1.24.1-1528912196
-Architecture: amd64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 215145
-Depends: libnotify4, libnss3, gnupg, apt, libxkbfile1, libgconf-2-4, libsecret-1-0
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Provides: visual-studio-code
-Filename: ./code_1.24.1-1528912196_amd64.deb
-Size: 46709080
-MD5sum: d509d7d8af9c5f82c51bd96f02a37b05
-SHA1: 1bec3282c03ed83af802c2707524b3b29efe3010
-SHA256: 7b72995400c679f58e9a7745b751ce066b4692e80d8fdb4ad97b3e79070799b2
-Section: devel
-Priority: optional
-Homepage: https://code.visualstudio.com/
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
-
-Package: code
 Version: 1.25.0-1530796411
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
@@ -92,6 +72,26 @@ Size: 46960464
 MD5sum: 460c54542e6c9553031703f4189aa226
 SHA1: 12a29e0971dd206d0016657a78065b9bfe98aec2
 SHA256: 18e0262f354b61d486c35d025569952da38b702325b141f7fb7ffea8ac091c7b
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: code
+Version: 1.27.0-1536125615
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 200212
+Depends: libnotify4, libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libgconf-2-4, libsecret-1-0, libgtk-3-0 (>= 3.10.0)
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_1.27.0-1536125615_amd64.deb
+Size: 45363264
+MD5sum: f64b76c78aca82a3a760ad7147b05cdb
+SHA1: ec49600901771d942c28494c604e4390e3d86846
+SHA256: 5710f9b455e07481d3333a21b7ed6fe990235381a1a26331c476f2d6cc6ded94
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
