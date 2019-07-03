@@ -1,24 +1,4 @@
 Package: code
-Version: 1.33.0-1554390824
-Architecture: amd64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 195514
-Depends: libnotify4, libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Provides: visual-studio-code
-Filename: ./code_1.33.0-1554390824_amd64.deb
-Size: 47370550
-MD5sum: 169b2e5cf2368d13a19f44cc84b216c1
-SHA1: 19a0f0e6220d938c9add75a02e461eb86c472505
-SHA256: 4bc605cecbcb69baff85abac805f49126b5cf9d7eb00045913e4626adfc79753
-Section: devel
-Priority: optional
-Homepage: https://code.visualstudio.com/
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
-
-Package: code
 Version: 1.33.1-1554971066
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
@@ -92,6 +72,26 @@ Size: 48458546
 MD5sum: d1c0a8d9cf66ead92375ea438b072f0b
 SHA1: c315e1e366b006d14a2ce79c67566b41b893d3e2
 SHA256: c3bb7a6d7953ff4093b8a7229227ad4a9587900866c7e867710086dcd42ba482
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: code
+Version: 1.36.0-1562161087
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 223464
+Depends: libnotify4, libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_1.36.0-1562161087_amd64.deb
+Size: 54327180
+MD5sum: 7516abc4a2f3965691cabbf9b7ec77c6
+SHA1: eb5f0a4be41c760baf65bfa5a2009bf40def2e98
+SHA256: a00f889a77408351325a024a5cd479b44b4a5de1f18191a7a8be4a191fdfc001
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
