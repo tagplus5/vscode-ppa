@@ -99,26 +99,6 @@ Description: Code editing. Redefined.
  Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
 
 Package: code-insiders
-Version: 1.46.0-1589883127
-Architecture: amd64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 260500
-Depends: libnotify4, libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1
-Conflicts: visual-studio-code-insiders
-Replaces: visual-studio-code-insiders
-Provides: visual-studio-code-insiders
-Filename: ./code-insiders_1.46.0-1589883127_amd64.deb
-Size: 62182800
-MD5sum: 7e71d6406398ff93f0ffb69b5c4164c5
-SHA1: 459334c019d7f66fbfe5f2da483576d425a3200b
-SHA256: e6ca68a1f46ea28a6eb0bee253b59971377c69c1d0391c660c0f639164ccea83
-Section: devel
-Priority: optional
-Homepage: https://code.visualstudio.com/
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
-
-Package: code-insiders
 Version: 1.46.0-1590013226
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
@@ -192,6 +172,26 @@ Size: 63409494
 MD5sum: ad1a515d7afa730365c72202e3c83ce5
 SHA1: 1bb1139500cb8db905211e72fff7c98e0260af81
 SHA256: b59db4f94e0594d404c4971286645a04423cd4ce18f67327ddcd026d0c5616a7
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: code-insiders
+Version: 1.46.0-1590558548
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 260725
+Depends: libnotify4, libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1
+Conflicts: visual-studio-code-insiders
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Filename: ./code-insiders_1.46.0-1590558548_amd64.deb
+Size: 62213814
+MD5sum: 99c4e49c54f111a96275c6d2112383e2
+SHA1: f7b1864f2ac912018f6a0c1b1b49b06da31e5627
+SHA256: 632cb8f8d4002de103ebd02208618a29f745826b6729f5ace952fa6bf4b33dab
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
