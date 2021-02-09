@@ -1,24 +1,4 @@
 Package: code
-Version: 1.51.0-1604600753
-Architecture: amd64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 265031
-Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Provides: visual-studio-code
-Filename: ./code_1.51.0-1604600753_amd64.deb
-Size: 65071836
-MD5sum: 9c81c3070cd1ab3229510b6edfa16bbf
-SHA1: c3968347c5a911c5e51771ecf3b6e0e3792078ab
-SHA256: 6489cca2ef9164095f7be1ffe3562eaa0de932e677e0c81ce51290065b0595a7
-Section: devel
-Priority: optional
-Homepage: https://code.visualstudio.com/
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
-
-Package: code
 Version: 1.51.1-1605051630
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
@@ -92,6 +72,26 @@ Size: 69074128
 MD5sum: 6534d4fa4a79cb22995b37745ad74e4f
 SHA1: 36b7844e1a83ddd77c36d0e5646b1ed62a43fa75
 SHA256: aceb855fca3ec903e873c1e5460e929434314af7f5d96a7a4e57ef4a34a45fda
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: code
+Version: 1.53.1-1612827767
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 266977
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_1.53.1-1612827767_amd64.deb
+Size: 69091036
+MD5sum: 6245b7f58b31af4f915a563089980c1b
+SHA1: 79611e1aeb1c1ba301bd5e982041b0076f5c5b01
+SHA256: 667f352d17e8274248899de552c37489da95e7ffee3c7e1a08d1729897dfd2a2
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
