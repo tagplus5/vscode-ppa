@@ -114,29 +114,6 @@ Description: Code editing. Redefined.
  instructions and FAQ.
 
 Package: code-insiders
-Version: 1.62.0-1635239492
-Architecture: amd64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 326972
-Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
-Conflicts: visual-studio-code-insiders
-Replaces: visual-studio-code-insiders
-Provides: visual-studio-code-insiders
-Filename: ./code-insiders_1.62.0-1635239492_amd64.deb
-Size: 81446684
-MD5sum: d8ba90d33aea6f722f0fe76006493708
-SHA1: c0716f8a8d02e1adfb0c6620a689df94d07e0afa
-SHA256: ff9ef47b5635d81f98553b92e7884e96f7eb747165b97c8afea96310b72459e4
-Section: devel
-Priority: optional
-Homepage: https://code.visualstudio.com/
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of
- a code editor with what developers need for the core edit-build-debug cycle.
- See https://code.visualstudio.com/docs/setup/linux for installation
- instructions and FAQ.
-
-Package: code-insiders
 Version: 1.62.0-1635313139
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
@@ -219,6 +196,29 @@ Size: 81457792
 MD5sum: abeca1b26db185d658c99b1f85b43ee9
 SHA1: dde3afe944359903587ed4f8bf61b1dd6b232d2a
 SHA256: c05f5c87d022d8b3fa87f963336d237e53526fd601d48864516aba2b59bf32ab
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+
+Package: code-insiders
+Version: 1.62.0-1635757058
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 326992
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-insiders
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Filename: ./code-insiders_1.62.0-1635757058_amd64.deb
+Size: 81445692
+MD5sum: 03fd9e4bfcc733105144d863e98a8873
+SHA1: db81cde7034c8238401ab51f445d5e3e1e2b7a2b
+SHA256: eeaa2d439eba6e2121df3e2bcbf38d7f00563d066c57db168fe488a35f04aa6b
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
