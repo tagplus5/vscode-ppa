@@ -1,27 +1,4 @@
 Package: code
-Version: 1.64.2-1644445741
-Architecture: amd64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 330982
-Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Provides: visual-studio-code
-Filename: ./code_1.64.2-1644445741_amd64.deb
-Size: 79995968
-MD5sum: 95db3eced45eb62eab096c6c6414c9df
-SHA1: 0536dbd4d1cc232c3f9928c1d6fa5213d864be0e
-SHA256: 2cd40f44554d7cc5cb0bd4550370a0a1098aa43b76980ee718a58e1ccf82254e
-Section: devel
-Priority: optional
-Homepage: https://code.visualstudio.com/
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of
- a code editor with what developers need for the core edit-build-debug cycle.
- See https://code.visualstudio.com/docs/setup/linux for installation
- instructions and FAQ.
-
-Package: code
 Version: 1.65.0-1646220682
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
@@ -113,20 +90,21 @@ Description: Code editing. Redefined.
  See https://code.visualstudio.com/docs/setup/linux for installation
  instructions and FAQ.
 
-Package: code-insiders
-Version: 1.66.0-1648455037
+Package: code
+Version: 1.76.1-1678294265
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 334542
-Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
-Conflicts: visual-studio-code-insiders
-Replaces: visual-studio-code-insiders
-Provides: visual-studio-code-insiders
-Filename: ./code-insiders_1.66.0-1648455037_amd64.deb
-Size: 82758196
-MD5sum: 574bfe2adb7a21b1018fe8cbeb6f01a1
-SHA1: 458e4a7ac9223697878ac205362eeb306a626ef2
-SHA256: dc4a5df68f33dc5f71c5431a751a935c50a5ddb526ca86ecbd03960316728670
+Installed-Size: 385193
+Depends: ca-certificates, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.15), libc6 (>= 2.17), libc6 (>= 2.2.5), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libglib2.0-0 (>= 2.16.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.18), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxkbfile1, libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_1.76.1-1678294265_amd64.deb
+Size: 94812240
+MD5sum: c1275c93f675c35b31ec1afdc37554db
+SHA1: 84aed48cd3210ea3881247f81f87a1b368c8ebbd
+SHA256: d0d24590c1b1fa82889513830f68827496fe5d42a9270fcb374723fd318601a5
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
@@ -219,6 +197,30 @@ Size: 82750952
 MD5sum: 31cf5be4620b473b1846a2492fcc33d1
 SHA1: 982b1ca69d3d2bd95b24c11764c47bbe908592c8
 SHA256: e76d1b1f7e7e3d38384c2eb2f8ab50af4b39d64a54284f30f69d90d59e7306b8
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+
+Package: code-insiders
+Version: 1.77.0-1678474620
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 370950
+Depends: ca-certificates, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.15), libc6 (>= 2.17), libc6 (>= 2.2.5), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libglib2.0-0 (>= 2.16.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.18), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxkbfile1, libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Conflicts: visual-studio-code-insiders
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Filename: ./code-insiders_1.77.0-1678474620_amd64.deb
+Size: 93776184
+MD5sum: b96a5a552d2c0d0d21932262133dcb7e
+SHA1: f0bf57bf472c0865aa6bc668cecc3840ac1d2764
+SHA256: 015737e1fd42d4c1b5a3c7e2447867d3788076af697333abcc32a4a51d654249
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
