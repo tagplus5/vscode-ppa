@@ -1,28 +1,4 @@
 Package: code
-Version: 1.86.2-1707854558
-Architecture: amd64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Installed-Size: 387773
-Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.2.5), libc6 (>= 2.28), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgssapi-krb5-2 (>= 1.17), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libkrb5-3 (>= 1.6.dfsg.2), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2), zlib1g (>= 1:1.2.3.4)
-Recommends: libvulkan1
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Provides: visual-studio-code
-Filename: ./code_1.86.2-1707854558_amd64.deb
-Size: 99776494
-MD5sum: 2b7c3005a2c9bbe95078b8efa249c6fe
-SHA1: c22568155272f479aa8dfb90e9b2a427b8c35e68
-SHA256: 7874c27e80e9bb1902502b8b90906ac830251f57f8e247b39d298d3809c76bf6
-Section: devel
-Priority: optional
-Homepage: https://code.visualstudio.com/
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of
- a code editor with what developers need for the core edit-build-debug cycle.
- See https://code.visualstudio.com/docs/setup/linux for installation
- instructions and FAQ.
-
-Package: code
 Version: 1.87.0-1709078641
 Architecture: amd64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
@@ -109,6 +85,30 @@ Size: 101666542
 MD5sum: d6a696b518c76b3f4816b7cfb5d45f9c
 SHA1: 6dca5b3c45d89766ed28577c2ab305687cff0d24
 SHA256: 1a46c512dc4031bf7f1ae299d409882f0a4ab90c64ae7aa9f660016f0eb448fa
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+
+Package: code
+Version: 1.88.1-1712771838
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 394164
+Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.2.5), libc6 (>= 2.28), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgssapi-krb5-2 (>= 1.17), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libkrb5-3 (>= 1.6.dfsg.2), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2), zlib1g (>= 1:1.2.3.4)
+Recommends: libvulkan1
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_1.88.1-1712771838_amd64.deb
+Size: 101661098
+MD5sum: fdaabc7fd86751056423aeef0f3fc61c
+SHA1: 0412455e86e195bcb830aefb8aa956f062968349
+SHA256: 5e5716de6bf700f3a47bf344009328974da1d331a7b1260d884643eb808a4453
 Section: devel
 Priority: optional
 Homepage: https://code.visualstudio.com/
